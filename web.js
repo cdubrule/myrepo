@@ -11,8 +11,8 @@ var hpage = fs.readFile('index.html');
 //});
 
 app.get('/', function(request, response) {
-//response.send(hpage);
-  response.send('Hello World!');
+response.send(hpage);
+//  response.send('Hello World!');
 });
 
 var port = process.env.PORT || 5000;
