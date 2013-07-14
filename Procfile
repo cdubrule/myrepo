@@ -1,1 +1,1 @@
-web: index.html 
+web: sh target/bin/webapp
