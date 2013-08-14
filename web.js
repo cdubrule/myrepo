@@ -9,8 +9,10 @@ var app = express.createServer(express.logger());
 //});
 
 app.get('/', function(request, response) {
-  console.log('Hello World!');
+  response.send('Hello World!');
 });
+
+console.log('Hi there');
 
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
